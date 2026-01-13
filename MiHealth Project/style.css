@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("watercolor.png");
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.food {
+    display: flex;
+    justify-content: center;
+    text-align: center;;
+}
+.meal1{ 
+    background-image: url(breakfast.jpg);
+    width:70%;
+    height: 400px;
+    background-size:  cover;
+    background-position: center;
+    margin: 20px;
+    position: relative;
+}
+
+.meal2{
+    background-image: url(pastasalad.jpg);
+    width:70%;
+height: 400px;
+background-size:  cover;
+background-position: center;
+ margin: 20px;
+ position: relative;
+}
+.meal3{
+    background-image: url(dinner.jpg);
+width:70%;
+height: 400px;
+background-size:  cover;
+background-position: center;
+margin: 20px;
+position: relative;
+}
+.healthy {
+    font-weight: bold;
+    font-size: 75px;
+}
+.eat {
+    display: flex;
+    flex-direction: column;
+}
+.meal-label {
+    background-color: greenyellow;
+    position: absolute;
+    top: 85%;
+    right: 0px;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px;
+}
+.meal-label1 {
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    right: 0px;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px;
+}
