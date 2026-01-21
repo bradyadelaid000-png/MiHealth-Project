@@ -27,7 +27,7 @@ a {
 .food {
     display: flex;
     justify-content: center;
-    text-align: center;;
+    text-align: center;
 }
 .meal1{ 
     background-image: url(breakfast.jpg);

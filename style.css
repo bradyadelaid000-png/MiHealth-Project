@@ -1,19 +1,38 @@
-p {
-    background-color: lightblue;
+body {
+background: linear-gradient(0deg,rgba(201, 75, 189, 1) 0%, rgba(108, 43, 140, 1) 100%);
+height: 100vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
 }
-#myHeader {
-    text-decoration: underline;
+form {
+    display: flex;
+    background-color: white;
+    height: 80vh;
+    width: 55vw;
+    top: 80vh;
+    left: 55vw;
+    padding: 12px;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
 }
-.italics {
-    font-style: italic;
+.crd {
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    padding: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.in {
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    padding: 20px;
 }
-[title] {
-    opacity: 50%;
-}
-div > span{
-    color: red;
+label {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: block;
 }
