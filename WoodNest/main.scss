@@ -1,0 +1,196 @@
+body {
+    background-image: url(cabin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 50px;
+    .bodycontainer {
+        height: 100%;
+        border-radius: 10px;
+        border: rgba($color: white, $alpha: 0.5) 5px solid;
+        padding: 10px;
+        
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px;
+            .logo {
+                width: 100px;
+                height: auto;
+                margin-right: 20px;
+                display: flex;
+                justify-self: start;
+            }
+            .start{  
+                display: flex;
+                justify-content: end;
+                height: 50px;
+                align-items: center;
+                a {
+                    color:  rgba($color: #ffffff, $alpha: 0.50);
+                    margin: 0 15px;
+                    font-size: 18px;
+                    cursor: pointer;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    transition: transform 0.6s ease-in-out;
+                }
+                a:hover {
+                    transform: scale(1.1);
+                }
+                button {
+                    margin-left: auto;
+                    padding: 15px;
+                    background-color: white;
+                    color: black;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 10px;
+                    white-space: nowrap;
+                    font-weight: bold;
+                    transition: transform 0.6s ease-in-out;
+                }
+                button:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .main {
+            display: flex;
+            height: calc(100% - 100px);
+                .leftcontainer {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                        .intro {
+                        padding:20px;
+                        color: #ffffff;
+                        font-size: 70px;
+                        padding: 20px;
+                        font-family: Arial, sans-serif;
+                        font-weight: lighter;
+                            .perfect {
+                                opacity: 50%;
+                            }
+                        }
+                        .discover {
+                        color: #ffffff;
+                        font-weight: 400;
+                        display: flex;
+                        height: 50px;
+                        width: 250px;
+                        text-align: justify;
+                        font-family: Arial, sans-serif;
+                        padding: 20px;
+                        opacity: 50%;
+                        font-size: 12px;
+                        }
+                }
+                .review {
+                    display: flex;
+                    align-items: flex-end;
+                    padding: 20px;
+                        .star::before {
+                            content: "\2605"; /* Unicode star */
+                            font-size: 40px;
+                            color: gold;
+                            display: inline-block;
+                        }
+                        .star{
+                            font-family: Arial, sans-serif;
+                            color: #ffffff;
+                            font-size: 30px;
+                        }
+                        .stays {
+                            font-family: Arial, sans-serif;
+                            color: #ffffff;
+                        }
+                    }
+                .right {
+                    background-color: rgba($color: #000000, $alpha: 50%);
+                    padding: 20px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-self: end;
+                    justify-self: end;
+                    height: 400px;
+                    width: 300px;
+                    .pine {
+                        font-family: Arial, sans-serif;
+                        color: #ffffff;
+                        font-size:  30px; ;
+                        text-wrap: wrap;
+                    }
+                    .booking {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 250px;
+                        height: 300px;
+                        label {
+                        font-family: Arial, sans-serif;
+                        color: #ffffff;  
+                        font-weight: lighter;
+                        }
+                        .dropdown input[type="date"] {
+                            background-color: #000000;
+                            color: #ffffff;
+                            border-radius: 10px;
+                            padding: 10px;
+                            border: #000000;
+                            font-family: Arial, sans-serif;
+                        }
+                        .dropdown input[type="time"] {
+                            background-color: #000000;
+                            color: #ffffff;
+                            border-radius: 10px;
+                            padding: 10px;
+                            border: #000000;
+                            font-family: Arial, sans-serif;
+                        }
+                    }
+                    .rate {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: baseline;
+                        height: fit-content;
+                        justify-content: space-between;
+                        .wrap { 
+                            display: flex;
+                            flex-direction: row;
+                            .money {
+                                color: #ffffff;
+                                font-family: Arial, sans-serif;
+                                font-size: 20px;
+                            }
+                            .night {
+                                color: #ffffff;
+                                font-family: Arial, sans-serif;
+                                font-size: 20px;
+                                opacity: 50%;
+                            }
+                        }
+                        .guests {
+                            color: #ffffff;
+                            font-family: Arial, sans-serif;
+                            font-size: 10px;
+                            opacity: 50%;
+                        }
+                    }
+                    .reserve {
+                        background-color: #ffffff;
+                        color: #000000;
+                        border-radius: 10px;
+                        font-family: Arial, sans-serif;
+                        display: block;
+                        width: 100%;
+                        padding: 20px;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    }
+

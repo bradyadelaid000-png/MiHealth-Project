@@ -1,0 +1,33 @@
+body {
+    background-image: url(computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row {
+    font-family: Arial, sans-serif;
+}
+.promote {
+    font-size: 30px;
+    margin-top: 40px;
+}
+.purple {
+    color: purple;
+}
+.devcourse {
+    font-size: 70px;
+    font-weight: bold;
+}
+.tempelet {
+    font-size: 40px;
+}
+.press {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    margin: 50px;
+}
+.press:hover {
+    background-color: rgb(61, 4, 61);
+    border-color: rgb(61, 4, 61);
+    color: white;
+}
